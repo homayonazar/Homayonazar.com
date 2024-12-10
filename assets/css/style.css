@@ -1,5 +1,5 @@
-/* Copyright 2025 Homayonazar.com */
-@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap');
+ /* Copyright 2025 Homayonazar.com */
+ @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap');
 
  
 :root
@@ -20,6 +20,7 @@ body.dark{
     --text-black-900:#ffffff;
     --text-black-700:#e9e9e9;
 }
+
 
 body
 {
@@ -51,6 +52,7 @@ a:hover {
     
 }
 
+
 ul
 {
     list-style: none;
@@ -72,6 +74,7 @@ ul
     overflow-y: auto;
     overflow-x: hidden;
     transition: all 0.3s ease;
+
 }
 
 .section.back-section
@@ -96,6 +99,7 @@ section.active
         transform: translateX(0%);
     }
 }
+
 
 .hidden
 {
@@ -159,6 +163,7 @@ section.active
     margin-top: 8px;
 }
 
+
 .row
 {
     display: flex ;
@@ -186,6 +191,7 @@ section.active
 {
     transform: scale(1.05);
 }
+
 
 .shadow-dark
 {
@@ -245,6 +251,7 @@ section.active
     bottom: 0 ;
     left: 0 ;
 }
+
 
 .aside .logo a::after
 {
@@ -314,6 +321,7 @@ section.active
     top: 6px;
     bottom: 0px;
 }
+
 
 .aside .nav-toggler.open span::after
 {
@@ -395,6 +403,12 @@ h3.my-professional
     color: var(--text-black-700);
 }
 
+
+
+
+
+
+
 .home .home-img
 {
     flex: 0 0 40%;
@@ -427,15 +441,14 @@ h3.my-professional
     top: -40px;
 }
 
+
+
 .home .home-img img 
 {
     margin: auto;
     height: 400px;
     border-radius: 10px;
 } 
-
-
-
 
 
 /* ====== About ===== */
@@ -805,7 +818,7 @@ h3.my-professional
 .portfolio .portfolio-img img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the image covers the container area while maintaining aspect ratio */
+    object-fit: cover; 
     position: absolute;
     top: 0;
     left: 0;
