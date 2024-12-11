@@ -1,6 +1,5 @@
  /* Copyright 2025 Homayonazar.com */
  @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap');
-
  
 :root
 {
@@ -21,7 +20,6 @@ body.dark{
     --text-black-700:#e9e9e9;
 }
 
-
 body
 {
     line-height: 1.5;
@@ -30,7 +28,8 @@ body
 
 }
 
-*{
+*
+{
     margin: 0;
     padding: 0;
     outline: none;
@@ -51,7 +50,6 @@ a:hover {
     text-decoration: underline; 
     
 }
-
 
 ul
 {
@@ -88,6 +86,7 @@ section.active
     opacity: 1;
     animation: slidesection 1s ease;
 }
+
 @keyframes slidesection
 {
     0%
@@ -100,12 +99,10 @@ section.active
     }
 }
 
-
 .hidden
 {
     display: none !important;
 }
-
 
 .padd-15
 {
@@ -163,7 +160,6 @@ section.active
     margin-top: 8px;
 }
 
-
 .row
 {
     display: flex ;
@@ -192,13 +188,13 @@ section.active
     transform: scale(1.05);
 }
 
-
 .shadow-dark
 {
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
 
-/* aside */
+
+/* ===== aside ===== */
 
 .aside
 {
@@ -251,7 +247,6 @@ section.active
     bottom: 0 ;
     left: 0 ;
 }
-
 
 .aside .logo a::after
 {
@@ -322,7 +317,6 @@ section.active
     bottom: 0px;
 }
 
-
 .aside .nav-toggler.open span::after
 {
     transform: rotate(-45deg);
@@ -358,7 +352,8 @@ section.active
     margin-right: 20px;
 }
 
-/* HOME */
+
+/* ===== HOME ===== */
 
 .home{
     min-height:100vh ;
@@ -403,12 +398,6 @@ h3.my-professional
     color: var(--text-black-700);
 }
 
-
-
-
-
-
-
 .home .home-img
 {
     flex: 0 0 40%;
@@ -440,8 +429,6 @@ h3.my-professional
     left: 20px;
     top: -40px;
 }
-
-
 
 .home .home-img img 
 {
@@ -535,7 +522,6 @@ h3.my-professional
     color: var(--text-black-700);
 }
 
-
 .about .about-content .skills .skill-item
 {
     flex: 0 0 100%;
@@ -594,7 +580,6 @@ h3.my-professional
 
 }
 
-
 .about .about-content h3.section-title
 {
     font-size: 24px;
@@ -618,7 +603,6 @@ h3.my-professional
     width: 100%;
     position: relative;
 }
-
 
 .about .about-content .timeline .timeline-item
 {
@@ -766,7 +750,6 @@ h3.my-professional
     padding-bottom: 40px;
 }
 
-
 .portfolio .portfolio-heading
 {
     flex: 0 0 100%;
@@ -814,7 +797,6 @@ h3.my-professional
     position: relative;
 }
 
-
 .portfolio .portfolio-img img {
     width: 100%;
     height: 100%;
@@ -823,8 +805,6 @@ h3.my-professional
     top: 0;
     left: 0;
 }
-
-
 
 /* Contact US Section Start */
 
@@ -906,7 +886,6 @@ h3.my-professional
 
 /* POPUP */
 
-
 .contact .contact-form .form-item .popup {
     width: 400px;
     background: var(--bg-balack-800);
@@ -930,7 +909,6 @@ h3.my-professional
     top: -300%;
     transform: translate(-50%, -50%) scale(1);
 }
-
 
 .contact .contact-form .form-item .popup i {
     font-size: 50px; 
@@ -957,7 +935,6 @@ h3.my-professional
     color: var(--text-black-700);
 }
 
-
 .contact .contact-form .form-item .popup .button {
     width: 100%;
     margin-top: 50px;
@@ -972,9 +949,6 @@ h3.my-professional
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 /* POPUP END */
-
-
-
 
 .contact .contact-form .form-item .form-controll
 {
@@ -1022,9 +996,6 @@ h3.my-professional
     font-family: 
     letter-spacing: 0.5px; 
 } */
-
-
-
 
 .blur-background {
     position: fixed;
