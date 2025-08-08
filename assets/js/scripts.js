@@ -59,25 +59,38 @@ const navTogglerBtn = document.querySelector(".nav-toggler"),
     }
 
 
-    // popup section :
-    let popup = document.getElementById("popup");
-    let blurBackground = document.getElementById("blurBackground");
-    
-    function openPopup() {
-        popup.classList.add("open-popup");
-        blurBackground.classList.add("show-blur");
-    }
-    
-    function closePopup() {
-        popup.classList.remove("open-popup");
-        blurBackground.classList.remove("show-blur");
-    }
-    
-    blurBackground.addEventListener("click", function(event) {
-        if (event.target === blurBackground) {
-            closePopup();
-        }
+
+  
+  const popup = document.getElementById("popup");
+  const popupImg = document.getElementById("popup-img");
+  const closeBtn = document.getElementById("close");
+
+  // همه عکس‌هایی که می‌خوای کلیک‌پذیر باشن
+  document.querySelectorAll(".popup-image").forEach(img => {
+    img.addEventListener("click", () => {
+      popup.style.display = "flex";
+      popupImg.src = img.src; // همون عکس بزرگ شه
     });
+  });
+
+  // بستن پاپ‌آپ با ضربدر
+  closeBtn.addEventListener("click", () => {
+    popup.style.display = "none";
+  });
+
+  // بستن با کلیک بیرون از عکس
+  popup.addEventListener("click", (e) => {
+    if (e.target === popup) {
+      popup.style.display = "none";
+    }
+  });
+
     
-    
-    
+
+
+
+
+
+
+
+  ////////////////////// Modal Pic //////////
