@@ -759,8 +759,9 @@ h3.my-professional
 
 .portfolio .portfolio-heading h2
 {
-    color: var(--bg-balack-900);
-    font-weight: 500;
+    color: var(--text-black-700);
+    font-weight: 300;
+    font-size: large;
 }
 
 .portfolio .portfolio-item
@@ -804,6 +805,9 @@ h3.my-professional
     top: 0;
     left: 0;
 }
+
+
+
 
 /* Contact US Section Start */
 
